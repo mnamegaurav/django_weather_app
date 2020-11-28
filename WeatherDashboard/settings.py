@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'WeatherDashboard.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd12ir0kk1vjhrr',
+        'USER': 'tfkjklgydmeggs',
+        'PASSWORD': 'bd0724b2750605c44e878d90fc1ea3c69ae965ae1ab210863e51edb0039ab0cc',
+        'HOST': 'ec2-35-171-109-11.compute-1.amazonaws.com',
+        'PORT': 5432,
     }
 }
 
