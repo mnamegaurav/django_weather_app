@@ -2,4 +2,4 @@
 Weather app showing weather data fetched from openweathermap.org API.
 
 Demo Link-
-https://devjunction-todoapp.herokuapp.com/
+https://devjunction-weather.herokuapp.com/
